@@ -1,0 +1,13 @@
+{
+  "readonly": true,
+  "defaultPolicy": "deny",
+  "functions": [
+    { "name": "RFC_PING",       "readonly": true },
+    { "name": "RFC_READ_TABLE", "readonly": true },
+    { "name": "ZRFC_AGENT_*",   "readonly": true }
+  ],
+  "deny": [
+    "ZRFC_*_DELETE_*",
+    "RFC_ABAP_*"
+  ]
+}

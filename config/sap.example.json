@@ -1,0 +1,9 @@
+{
+  "destination": "SAP",
+  "ashost": "10.0.0.246",
+  "sysnr": "00",
+  "client": "800",
+  "user": "ZHANGC",
+  "passwd": "${SAP_PASSWD}",
+  "lang": "ZH"
+}
